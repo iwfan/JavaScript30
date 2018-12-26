@@ -41,7 +41,8 @@
   // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
   const category = document.querySelector('.mw-category');
   const items = (<HTMLDivElement>category).querySelectorAll('li');
-  console.table([].map.call(items, ((item: HTMLLIElement) => item.textContent)).filter((item: string) => item.includes('de')));
+  const results = [].map.call(items, ((item: any) => item.textContent)).filter((item: any) => item.includes('de'));
+  console.table(results);
 
   // 7. sort Exercise
   // Sort the people alphabetically by last name

@@ -13,5 +13,6 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 * [CSS Variables](https://www.wangfan.site/JavaScript30/03%20-%20CSS%20Variables/index.html)
 * [Array Cardio Day1](https://www.wangfan.site/JavaScript30/04%20-%20Array%20Cardio%20Day%201/index.html)
 * [Flex Panel Gallery](https://www.wangfan.site/JavaScript30/05%20-%20Flex%20Panel%20Gallery/index.html)
+* [Type Ahead](https://www.wangfan.site/JavaScript30/06%20-%20Type%20Ahead/index.html)
 
 

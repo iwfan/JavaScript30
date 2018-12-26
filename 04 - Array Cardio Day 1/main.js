@@ -37,7 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
     const category = document.querySelector('.mw-category');
     const items = category.querySelectorAll('li');
-    console.table([].map.call(items, ((item) => item.textContent)).filter((item) => item.includes('de')));
+    const results = [].map.call(items, ((item) => item.textContent)).filter((item) => item.includes('de'));
+    console.table(results);
     // 7. sort Exercise
     // Sort the people alphabetically by last name
     console.table(people.sort((a, b) => {
