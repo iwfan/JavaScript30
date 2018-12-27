@@ -14,5 +14,7 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 * [Array Cardio Day1](https://www.wangfan.site/JavaScript30/04%20-%20Array%20Cardio%20Day%201/index.html)
 * [Flex Panel Gallery](https://www.wangfan.site/JavaScript30/05%20-%20Flex%20Panel%20Gallery/index.html)
 * [Type Ahead](https://www.wangfan.site/JavaScript30/06%20-%20Type%20Ahead/index.html)
+* [Array Cardio Day2](https://www.wangfan.site/JavaScript30/07%20-%20Array%20Cardio%20Day%202/index.html)
+* [Fun with HTML5 Canvas](https://www.wangfan.site/JavaScript30/08%20-%20Fun%20with%20HTML5%20Canvas/index.html)
 
 
