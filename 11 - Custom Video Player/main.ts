@@ -1,7 +1,7 @@
 const player: HTMLDivElement = document.querySelector(
   '.player'
 ) as HTMLDivElement;
-const video: HTMLVideoElement = document.querySelector(
+const video = document.querySelector<HTMLVideoElement>(
   '.player__video'
 ) as HTMLVideoElement;
 const toggleBtn: HTMLButtonElement = document.querySelector(
@@ -51,6 +51,18 @@ function AdjustmentProgress(ele: HTMLDivElement, event: MouseEvent) {
 function updateProgressFilled(this: HTMLVideoElement) {
   progresFilled.style.flexBasis = `${(video.currentTime / video.duration) *
     100}%`;
+}
+interface Node {
+  readonly fullscreenElement: HTMLElement | null;
+  readonly mozFullScreenElement: HTMLElement | null;
+  readonly webkitFullscreenElement: HTMLElement | null;
+  readonly msFullscreenElement: HTMLElement | null;
+  msRequestFullscreen(): Promise<void>;
+  mozRequestFullScreen(): Promise<void>;
+  webkitRequestFullscreen(): Promise<void>;
+  msExitFullscreen(): Promise<void>;
+  mozCancelFullScreen(): Promise<void>;
+  webkitExitFullscreen(): void;
 }
 
 function toggleFullScreen(element: HTMLElement) {
