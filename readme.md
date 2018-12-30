@@ -19,6 +19,7 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 * [Hold Shift and Check Checkboxes](https://www.wangfan.site/JavaScript30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/index.html)
 * [Custom Video Player](https://www.wangfan.site/JavaScript30/11%20-%20Custom%20Video%20Player/index.html)
 * [Key Sequence Detection](https://www.wangfan.site/JavaScript30/12%20-%20Key%20Sequence%20Detection/index.html)
+* [Slide in on Scroll](https://www.wangfan.site/JavaScript30/13%20-%20Slide%20in%20on%20Scroll/index.html)
 
 
 
