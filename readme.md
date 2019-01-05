@@ -25,5 +25,6 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 - [Sort Without Articles](https://www.wangfan.site/JavaScript30/17%20-%20Sort%20Without%20Articles/index-START.html)
 - [Adding Up Times with Reduce](https://www.wangfan.site/JavaScript30/18%20-%20Adding%20Up%20Times%20with%20Reduce/index.html)
 - [Webcam Fun](https://www.wangfan.site/JavaScript30/19%20-%20Webcam%20Fun/index.html)
+- [Speech Detection](https://www.wangfan.site/JavaScript30/20%20-%20Speech%20Detection/index-START.html)
 
 
