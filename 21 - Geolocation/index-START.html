@@ -59,6 +59,14 @@
     /*Compass: https://thenounproject.com/search/?q=compass&i=592352*/
   </style>
   <script>
+    const speedValue = document.querySelector('.speed-value')
+    const arrow = document.querySelector('.arrow')
+    navigator.geolocation.watchPosition(position => {
+      console.log(position)
+      const { speed = 0.0, heading = 0 } = position
+      speedValue.textContent = speed;
+      arrow.style.transform = `rotate(${heading}deg)`
+    }, err => console.error(err))
   </script>
 </body>
 </html>
