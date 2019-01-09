@@ -6,8 +6,6 @@ Starter Files + Completed solutions for the JavaScript 30 Day Challenge.
 
 Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 
-## 使用 Typescript 实现
-
 - [JavaScript Drum Kit](https://www.wangfan.site/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/index.html)
 - [JS and CSS Clock](https://www.wangfan.site/JavaScript30/02%20-%20JS%20and%20CSS%20Clock/index.html)
 - [CSS Variables](https://www.wangfan.site/JavaScript30/03%20-%20CSS%20Variables/index.html)
@@ -28,7 +26,6 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 - [Speech Detection](https://www.wangfan.site/JavaScript30/20%20-%20Speech%20Detection/index-START.html)
 - [Geolocation](https://www.wangfan.site/JavaScript30/21%20-%20Geolocation/index-START.html)
 - [Follow Along Link Highlighter](https://www.wangfan.site/JavaScript30/22%20-%20Follow%20Along%20Link%20Highlighter/index-START.html)
-
-
-
-
+- [Speech Synthesis](https://www.wangfan.site/JavaScript30/23%20-%20Speech%20Synthesis/index-START.html)
+- [Sticky Nav](https://www.wangfan.site/JavaScript30/24%20-%20Sticky%20Nav/index-START.html)
+- [Stripe Follow Along Nav](https://www.wangfan.site/JavaScript30/26%20-%20Stripe%20Follow%20Along%20Nav/index-START.html)

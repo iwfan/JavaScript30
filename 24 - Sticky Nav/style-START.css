@@ -10,7 +10,9 @@ body {
   margin: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -38,23 +40,30 @@ header {
 h1 {
   color: white;
   font-size: 7vw;
-  text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
+  text-shadow: 3px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 nav {
-  background: black;
-  top: 0;
+  /* top: 0; */
   width: 100%;
+  height: auto;
   transition: all 0.5s;
   position: relative;
   z-index: 1;
 }
 
 nav ul {
+  background: black;
   margin: 0;
-  padding:0;
+  padding: 0;
   list-style: none;
   display: flex;
+}
+nav.sticky ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 nav li {
@@ -69,11 +78,13 @@ li.logo {
   max-width: 0;
   overflow: hidden;
   background: white;
-  transition: all .5s;
+  transition: all 0.5s;
   font-weight: 600;
   font-size: 30px;
 }
-
+nav.sticky li.logo {
+  max-width: 500px;
+}
 li.logo a {
   color: black;
 }
